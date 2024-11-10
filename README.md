@@ -1,4 +1,7 @@
 # Currículum Vitae
+## Link to the Figma Project
+https://www.figma.com/design/HMZ5TV8QsIxWZie7TdkfDC/MIU_CV?node-id=0-1&t=34Q5roQwYQuFBfbh-1
+
 ## Introduction
 This project consists of my (real) CV. Here, I have provided the information I have on my real CV and I have structured in a manner which is similar to the CV I often present to job offers.
 However, I have ommited sensitive information such as my real phone number.
