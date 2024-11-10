@@ -1,0 +1,206 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Raleway'); 
+
+body {
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #205581;
+    color: #fff;
+}
+
+/* rodona */
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+/* imatge de perfil 'img' */
+.profile-picture img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; /* aixi no fa overflow */
+}
+
+/* header content en general */
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* h1 */
+.header-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.contact-info {
+    display: flex;
+    gap: 20px; 
+    font-size: 16px; 
+    padding: 10px 0;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i.material-icons {
+    font-size: 24px;
+    margin-right: 8px;
+    /* color: #555; */
+}
+
+.header-content h1 {
+    font-size: 28px;
+    margin-bottom: 8px; 
+    /* color: #333; */
+}
+
+
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    color: #205581;
+    margin-bottom: 10px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.resume {
+    width: 75%;
+    padding: 20px;
+}
+
+.resume h2 {
+    font-size: 18px;
+    color: #205581;
+    margin-bottom: 10px;
+}
+
+.resume .entry {
+    margin-bottom: 20px;
+}
+
+.resume .entry h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 2px; 
+}
+
+.resume .entry p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0; 
+    margin-bottom: 8px; 
+}
+
+.skills ul {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.language-icon {
+    width: 25px; 
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 8px; 
+    vertical-align: middle;
+}
+
+.certificacions ul{
+    list-style-type: disc; 
+    margin-left: 15px;
+}
+
+.academic-bloc h3 {
+    font-size: 1.25em;
+    margin-bottom: 2px;
+}
+/* primer element del bloc */
+.academic-bloc p:first-of-type {
+    color: #6c757d; 
+    margin-top: 0; 
+    margin-bottom: 8px;
+}
+
+/* ultim element del bloc */
+.academic-bloc p:last-of-type {
+    margin-top: 12px; 
+}
+
+.social-icons {
+    margin-top: 10px; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 24px;
+    margin-right: 15px; /* espai entre les icones */
+}
+
+.social-icons a:hover {
+    color: #a0a0a0; /* canvia el color quan fem hover */
+}
+
+.voluntariat .entry {
+    margin-bottom: 20px;
+}
+
+.voluntariat .entry h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 2px; /* Redueix el marge inferior del títol */
+}
+
+.voluntariat .entry p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0; 
+    margin-bottom: 8px; 
+}
+
+.voluntariat .entry h4 {
+    font-size: 14px;
+    color: #1f1f1f;
+    margin-bottom: 2px; 
+}
