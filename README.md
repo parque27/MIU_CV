@@ -1,7 +1,7 @@
 # Currículum Vitae
 ## Introduction
 This project consists of my (real) CV. Here, I have provided the information I have on my real CV and I have structured in a manner which is similar to the CV I often present to job offers.
-However, I have ommited sensitive information such as my real phone number and my real e-mail.
+However, I have ommited sensitive information such as my real phone number.
 
 ## User persona
 The target user persona would be someone interested in my professional and academic career. This include profiles such as job recruiters. In the next section, I explain the main areas I focus, which are academics, job positions and a little bit of myself. This user would carefully read through these sections and gather all the necessary information. This recruiter persona would not be restricted to a IT/CGI position, because I haven't fully adapted this CV to be an engineering/CS CV.
